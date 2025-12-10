@@ -1,0 +1,171 @@
+body {
+background-color: #f2f7f4;
+margin: 0;
+padding: 0;
+color: #black;
+}
+
+/*Estilo del titulo*/
+header h1{
+	font-family: "Georgia", sans-serif; 
+	background-color: olivedrab;
+	padding: 20px;
+	margin: 0;
+	font-size: 32px;
+}
+.contenido{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+	border: 2px solid #ccc;
+	background: #BDB76B;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 20px;
+}
+/*Texto del contenido*/
+.contenido .texto{
+	width: 50%;
+	padding-right: 20px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+/*Estilo imagen*/
+.contenido .imagen{
+	width: 50%;
+	text-align: center;
+}
+.contenido .imagen img{
+	width: 400px;
+	height: auto;
+	border-radius: 10px;
+	border: 3px solid #999;
+}
+
+.feria{
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #ccc;
+	background: #BDB76B;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.feria .texto{
+	margin: 20px auto;
+	line-height: 1.6;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#imagen1{
+	object-fit: cover;
+	width: 99%;
+	height: 300px;
+	border-radius: 10px;
+	border: 3px solid black;
+}
+
+#imagen2{
+	width: 40%;
+	height: 250px;
+	border-radius: 10px;
+	border: 3px solid black;
+}
+
+#imagen3{
+	width: 40%;
+	height: 250px;
+	border-radius: 10px;
+	border: 3px solid black;
+}
+
+.lado{
+	display: inline-block;
+	width: 250px;
+	height: 150px;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.Productos{
+	text-align: center;
+    margin: 20px;
+    border: 2px solid #ccc;
+	background: #BDB76B;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.Productos .parrafo{
+	margin: 20px auto;
+	line-height: 1.6;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.productos{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 100px;
+	max-width: 1200px;
+	margin: 40px auto;
+}
+
+.producto {
+	background: #888888;
+	padding: 15px;
+	border-radius: 10px;
+	border: solid black;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	text-align: center;
+}
+
+.productos img{
+	width: 55%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+	border: solid black;
+	margin-top: 10px;
+}
+
+.producto p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.videos h2{
+	text-align: center;
+}
+
+.videos .texto{
+	margin: 20px auto;
+	line-height: 1.6;
+	font-size: 18px;
+	text-align: center;
+}
+
+.videos a{
+	display: inline-block;
+	padding: 12px 20px;
+	margin: 10px;
+	background-color: #c2e8a4;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	transition: .3s;
+}
+
+.videos a:hover{
+	background-color: #97cf72;
+}
+
+.contacto{
+	text-align: right;
+}
